@@ -1,4 +1,4 @@
-package pl.jg.Interfaces;
+package pl.jg.interfaces;
 
 @FunctionalInterface
 public interface Formula {

@@ -1,10 +1,8 @@
-package pl.jg.Streams;
+package pl.jg.streams;
 
-import pl.jg._UsefullStuff.Bike;
-import pl.jg._UsefullStuff.BikeService;
+import pl.jg._usefulStuff.Bike;
+import pl.jg._usefulStuff.BikeService;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 

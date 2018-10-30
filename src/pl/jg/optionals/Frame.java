@@ -1,4 +1,4 @@
-package pl.jg.Optionals;
+package pl.jg.optionals;
 
 public class Frame {
     private String material;
@@ -13,5 +13,12 @@ public class Frame {
 
     public Frame(String material) {
         this.material = material;
+    }
+
+    @Override
+    public String toString() {
+        return "Frame{" +
+                "material='" + material + '\'' +
+                '}';
     }
 }

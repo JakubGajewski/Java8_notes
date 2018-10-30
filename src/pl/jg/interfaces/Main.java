@@ -1,4 +1,4 @@
-package pl.jg.Interfaces;
+package pl.jg.interfaces;
 
 import java.util.ArrayList;
 import java.util.List;

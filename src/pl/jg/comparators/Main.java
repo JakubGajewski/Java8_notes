@@ -1,4 +1,4 @@
-package pl.jg.Comparators;
+package pl.jg.comparators;
 
 import java.util.*;
 

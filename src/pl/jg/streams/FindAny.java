@@ -1,7 +1,7 @@
-package pl.jg.Streams;
+package pl.jg.streams;
 
-import pl.jg._UsefullStuff.Bike;
-import pl.jg._UsefullStuff.BikeService;
+import pl.jg._usefulStuff.Bike;
+import pl.jg._usefulStuff.BikeService;
 
 public class FindAny {
 

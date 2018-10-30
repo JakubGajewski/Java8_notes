@@ -1,4 +1,4 @@
-package pl.jg._UsefullStuff;
+package pl.jg._usefulStuff;
 
 import java.util.Objects;
 

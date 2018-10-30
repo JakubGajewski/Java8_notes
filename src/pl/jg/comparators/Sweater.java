@@ -1,7 +1,4 @@
-package pl.jg.Comparators;
-
-import pl.jg.Comparators.Color;
-import pl.jg.Comparators.Size;
+package pl.jg.comparators;
 
 public class Sweater {
 

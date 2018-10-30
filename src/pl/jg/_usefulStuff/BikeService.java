@@ -1,6 +1,5 @@
-package pl.jg._UsefullStuff;
+package pl.jg._usefulStuff;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
