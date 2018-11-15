@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-public class Main {
+public class MainBike {
 
     public static void main(String[] args) {
 
         List<Bike> bikeList = new ArrayList<>();
 
-        bikeList.add(new Bike(new Frame("steel frame"), null));
+        bikeList.add(new Bike(new Frame("steel frame")));
 
         bikeList.add(new Bike(new Frame("H10 carbon fibre"), new Suspension(110,110)));
 
@@ -21,8 +21,6 @@ public class Main {
             System.out.println("-----------------------------------------------");
         }
 
-        Optional emptyOptional = Optional.empty();
 
-        System.out.println(emptyOptional.isPresent());
     }
 }

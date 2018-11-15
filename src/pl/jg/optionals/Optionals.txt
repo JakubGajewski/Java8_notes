@@ -1,0 +1,6 @@
+https://dzone.com/articles/optional-anti-patterns
+
+How to Use It
+
+Originally created for Stream operations to handle cases when values might be missing (and some default one could be provided). According to the documentation, Optional should be used as a return type. And that’s all. It's a neat solution for handling data that might be not present.
+
