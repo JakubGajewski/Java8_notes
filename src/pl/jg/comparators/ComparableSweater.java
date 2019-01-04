@@ -1,14 +1,12 @@
 package pl.jg.comparators;
 
-import java.util.Arrays;
-import java.util.List;
-
-public class Sweater {
+public class ComparableSweater implements Comparable<ComparableSweater> {
 
     private Size size;
+
     private Color color;
 
-    public Sweater(Size size, Color color) {
+    public ComparableSweater(Size size, Color color) {
         this.size = size;
         this.color = color;
     }
@@ -16,8 +14,22 @@ public class Sweater {
     public Size getSize() {
         return size;
     }
+
+    public void setSize(Size size) {
+        this.size = size;
+    }
+
     public Color getColor() {
         return color;
+    }
+
+    public void setColor(Color color) {
+        this.color = color;
+    }
+
+    @Override
+    public int compareTo(ComparableSweater o) {
+        return this.size.compareTo(o.getSize());
     }
 
     @Override
@@ -26,9 +38,5 @@ public class Sweater {
                 "size=" + size +
                 ", color=" + color +
                 '}';
-    }
-
-    public static List<Sweater> createSomeSweaters () {
-        return Arrays.asList(new Sweater(Size.L, Color.BLUE), new Sweater(Size.XS, Color.BLUE), new Sweater(Size.XL, Color.RED), new Sweater(Size.XL, Color.BLACK));
     }
 }
