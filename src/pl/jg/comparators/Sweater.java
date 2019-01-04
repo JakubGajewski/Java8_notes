@@ -26,4 +26,12 @@ public class Sweater {
     public void setColor(Color color) {
         this.color = color;
     }
+
+    @Override
+    public String toString() {
+        return "Sweater{" +
+                "size=" + size +
+                ", color=" + color +
+                '}';
+    }
 }
