@@ -22,6 +22,5 @@ public class Main {
         });
 
         sweaterList.forEach(System.out::println);
-
     }
 }
