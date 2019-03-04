@@ -1,22 +1,33 @@
-package pl.jg.Optionals;
+package pl.jg.optionals;
 
 import java.util.Optional;
 
 public class Bike {
-    private Optional <Frame> frame;
+    private Frame frame;
+    private Suspension suspension;
 
-    public Optional<Frame> getFrame() {
+    public Frame getFrame() {
         return frame;
     }
 
-    public void setFrame(Optional<Frame> frame) {
+    public void setFrame(Frame frame) {
         this.frame = frame;
     }
 
-    public Bike(Optional<Frame> frame) {
-        this.frame = frame;
+    public Optional<Suspension> getSuspension() {
+        return Optional.ofNullable(suspension);
     }
 
-    public Bike() {
+    public void setSuspension(Suspension suspension) {
+        this.suspension = suspension;
     }
+    public Bike(Frame frame, Suspension suspension) {
+        this.frame = frame;
+        this.suspension = suspension;
+    }
+
+    public Bike(Frame frame) {
+        this.frame = frame;
+    }
+    //aa
 }
